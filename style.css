@@ -57,7 +57,7 @@ body.landing {
 .landing-title {
   text-align: center;
   font-size: clamp(1.6rem, 4vw, 5rem);
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 0.22em;
   line-height: 1;
   color: #ffffff;
@@ -106,15 +106,13 @@ body.stories-page {
   transition: background 0.6s;
 }
 .stories-logo {
-  font-size: 0.82rem;
+  font-size: clamp(0.75rem, 1.1vw, 1rem);
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--fg);
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
+  white-space: nowrap;
 }
 .stories-nav a {
   margin-left: 1.8rem;
@@ -236,15 +234,13 @@ body.story-page {
   justify-content: space-between;
 }
 .logo {
-  font-size: 0.82rem;
+  font-size: clamp(0.75rem, 1.1vw, 1rem);
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--fg);
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
+  white-space: nowrap;
 }
 nav a {
   margin-left: 1.8rem;
