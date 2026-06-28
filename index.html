@@ -3,33 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GG Photography</title>
+  <title>Gaia Gaudenzi</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="logo" href="index.html">GG</a>
-      <nav>
-        <a href="index.html" class="active">Work</a>
-        <a href="about.html">About</a>
-      </nav>
-    </div>
-  </header>
+<body class="landing">
 
-  <main class="gallery">
-    <div class="gallery-track">
+  <div class="landing-bg" style="background-image:url('DSC_0516.JPG')"></div>
+  <div class="landing-overlay"></div>
 
-      <article class="story-card" onclick="window.location='green/index.html'">
-        <div class="card-inner">
-          <img class="photo bw"    src="green/DSC_0020.JPG" alt="Green – black and white">
-          <img class="photo color" src="green/DSC_0020.JPG" alt="Green – color">
-          <div class="card-title">Green</div>
-        </div>
-      </article>
+  <!-- Top-left: name -->
+  <div class="landing-name">
+    <span>GAIA</span>
+    <span>GAUDENZI</span>
+  </div>
 
-    </div>
-  </main>
+  <!-- Centre: tagline -->
+  <div class="landing-center">
+    <h1 class="landing-title">STORIES IN<br>PHOTOGRAPHY</h1>
+  </div>
+
+  <!-- Bottom-right: stories link (vertical) -->
+  <a class="landing-stories-link" href="stories.html">STORIES</a>
 
   <script src="script.js"></script>
 </body>
