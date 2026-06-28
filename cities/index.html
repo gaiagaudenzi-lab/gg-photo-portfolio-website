@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cities - Gaia Gaudenzi</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="story-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="../index.html">GAIA GAUDENZI</a>
+      <nav>
+        <a href="../stories.html">Stories</a>
+      </nav>
+    </div>
+  </header>
+  <section class="story-page-header">
+    <a class="story-back" href="../stories.html">&#8592; Back to Stories</a>
+    <h1>Cities</h1>
+  </section>
+  <div class="photo-grid" id="cities-grid">
+  </div>
+  <div id="lightbox" role="dialog" aria-modal="true">
+    <button id="lightbox-close" aria-label="Close">&#10005;</button>
+    <button id="lightbox-prev" aria-label="Previous">&#8592;</button>
+    <img src="" alt="Enlarged photo">
+    <button id="lightbox-next" aria-label="Next">&#8594;</button>
+  </div>
+  <script src="../script.js"></script>
+  <script>
+    // Auto-load all images from cities folder
+    const images = [
+      'DSC_0062.JPG','DSC_0141.JPG','DSC_0470.JPG','DSC_0675.JPG',
+      'IMG_0398.jpeg','IMG_5065.jpeg','IMG_9277.jpeg'
+    ];
+    const grid = document.getElementById('cities-grid');
+    if (grid) {
+      // Will be replaced with actual filenames once uploaded
+      grid.innerHTML = '<p style="padding:2rem;opacity:0.4;font-size:0.8rem;letter-spacing:0.1em;">Photos coming soon</p>';
+    }
+  </script>
+</body>
+</html>
